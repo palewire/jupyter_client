@@ -29,7 +29,7 @@ and download the dependencies of code and test suite by executing:
 
 ```bash
 cd /my/projects/jupyter_client/
-pip install -e .[test]
+pip install -e ".[test]"
 pytest
 ```
 
